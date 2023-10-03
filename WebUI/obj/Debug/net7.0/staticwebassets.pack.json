@@ -1,0 +1,305 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/obj/Debug/net7.0/scopedcss/projectbundle/WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets/WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/css/bootstrap.css",
+      "PackagePath": "staticwebassets/vendors/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/css/colors.css",
+      "PackagePath": "staticwebassets/vendors/css/colors.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/vendors/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/css/responsive.css",
+      "PackagePath": "staticwebassets/vendors/css/responsive.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/css/version/tech.css",
+      "PackagePath": "staticwebassets/vendors/css/version/tech.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/vendors/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/vendors/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/vendors/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/vendors/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/vendors/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/vendors/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/ads-bg.png",
+      "PackagePath": "staticwebassets/vendors/images/ads-bg.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/vendors/images/apple-touch-icon.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/arrow.png",
+      "PackagePath": "staticwebassets/vendors/images/arrow.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/favicon.ico",
+      "PackagePath": "staticwebassets/vendors/images/favicon.ico"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/footer.png",
+      "PackagePath": "staticwebassets/vendors/images/footer.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/hover.png",
+      "PackagePath": "staticwebassets/vendors/images/hover.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/loader.gif",
+      "PackagePath": "staticwebassets/vendors/images/loader.gif"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/menubg.jpg",
+      "PackagePath": "staticwebassets/vendors/images/menubg.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/version/tech-footer-logo.png",
+      "PackagePath": "staticwebassets/vendors/images/version/tech-footer-logo.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/version/tech-logo.png",
+      "PackagePath": "staticwebassets/vendors/images/version/tech-logo.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/images/videohover.png",
+      "PackagePath": "staticwebassets/vendors/images/videohover.png"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/vendors/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/js/custom.js",
+      "PackagePath": "staticwebassets/vendors/js/custom.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/js/jquery.min.js",
+      "PackagePath": "staticwebassets/vendors/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/js/tether.min.js",
+      "PackagePath": "staticwebassets/vendors/js/tether.min.js"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/style.css",
+      "PackagePath": "staticwebassets/vendors/style.css"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/author.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/author.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/author_01.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/author_01.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/author_02.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/author_02.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/banner_01.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/banner_01.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/banner_02.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/banner_02.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/banner_03.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/banner_03.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/banner_07.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/banner_07.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_01.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_01.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_02.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_02.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_03.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_03.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_01.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_01.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_02.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_02.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_03.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_03.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_04.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_04.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_05.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_05.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_06.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_06.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_07.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_07.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_08.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_08.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_09.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_09.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_blog_10.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_blog_10.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_01.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_01.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_02.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_02.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_03.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_03.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_04.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_04.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_05.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_05.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_06.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_06.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_07.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_07.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_08.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_08.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_09.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_09.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_10.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_10.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_11.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_11.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_12.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_12.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_13.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_13.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_14.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_14.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_15.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_15.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_16.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_16.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_17.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_17.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_18.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_18.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_19.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_19.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_menu_20.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_menu_20.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_video_01.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_video_01.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_video_02.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_video_02.jpg"
+    },
+    {
+      "Id": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/TechBlog/WebUI/wwwroot/vendors/upload/tech_video_03.jpg",
+      "PackagePath": "staticwebassets/vendors/upload/tech_video_03.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.WebUI.props",
+      "PackagePath": "build\\WebUI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\WebUI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.WebUI.props",
+      "PackagePath": "buildTransitive\\WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
