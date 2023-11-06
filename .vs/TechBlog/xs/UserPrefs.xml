@@ -1,36 +1,23 @@
 ﻿<Properties StartupConfiguration="{D278FB7C-6773-42A4-BA89-D6B78A8EF63D}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebUI/Areas/Dashboard/Controllers/HomeController.cs">
-    <Files>
-      <File FileName="WebUI/Program.cs" Line="58" Column="1" />
-      <File FileName="WebUI/Areas/Dashboard/Controllers/HomeController.cs" Line="22" Column="6" />
-      <File FileName="WebUI/Areas/Dashboard/Views/_ViewImports.cshtml" Line="3" Column="23" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="TechBlog">
-            <Node name="WebUI">
-              <Node name="Areas" expanded="True">
-                <Node name="Dashboard" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="HomeController.cs" selected="True" />
-                  </Node>
-                  <Node name="Views" expanded="True">
-                    <Node name="Home" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebUI/Areas/Dashboard/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="WebUI/Program.cs" />
+      <File FileName="WebUI/Areas/Dashboard/Controllers/HomeController.cs" Line="19" Column="6" />
+      <File FileName="WebUI/Areas/Dashboard/Views/_ViewImports.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TechBlog" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

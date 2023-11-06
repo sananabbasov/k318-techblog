@@ -16,14 +16,16 @@ namespace WebUI.Controllers;
 public class AuthController : Controller
 {
     private readonly UserManager<User> _userManager;
+    private readonly RoleManager<IdentityRole> _roleManager;
     private readonly SignInManager<User> _signInManager;
     private readonly IHttpContextAccessor _httpContext;
 
-    public AuthController(UserManager<User> userManager, SignInManager<User> signInManager, IHttpContextAccessor httpContext)
+    public AuthController(UserManager<User> userManager, SignInManager<User> signInManager, IHttpContextAccessor httpContext, RoleManager<IdentityRole> roleManager)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _httpContext = httpContext;
+        _roleManager = roleManager;
     }
     public IActionResult Login()
     {
@@ -81,8 +83,13 @@ public class AuthController : Controller
 
         IdentityResult result = await _userManager.CreateAsync(newUser, registerDto.Password);
 
+
         if (result.Succeeded)
+        {
+            await _userManager.AddToRoleAsync(newUser, "User");
             return RedirectToAction("Login");
+        }
+
 
         return View();
     }

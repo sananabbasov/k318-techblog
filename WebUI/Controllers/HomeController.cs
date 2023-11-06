@@ -1,33 +1,47 @@
 ﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using WebUI.Data;
 using WebUI.Models;
+using WebUI.ViewModels;
 
 namespace WebUI.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly AppDbContext _context;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(AppDbContext context)
     {
-        _logger = logger;
+        _context = context;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(int pageNo = 1)
     {
-        return View();
+        string StripHTML(string input)
+        {
+            return Regex.Replace(input, "<.*?>", String.Empty);
+        }
+        int postsPerPage = 3; // TODO: Make this a setting in the database or something
+        int skipPage = (pageNo - 1) * postsPerPage;
+        ViewBag.CurrentPage = pageNo;
+        ViewBag.pageCount = (int)Math.Ceiling((double)_context.Articles.Count() / postsPerPage);
+        var recentArticles = _context.Articles.Include(x => x.Category).Include(x => x.User).OrderByDescending(x => x.Id).Skip(skipPage).Take(postsPerPage).ToList().Select(x => { x.Content = StripHTML(x.Content); return x; }).ToList();
+        var trendVideos = _context.Articles.Where(x => x.CategoryId == 4).OrderByDescending(x => x.ViewCount).Take(3).ToList();
+        var popular = _context.Articles.OrderByDescending(x => x.ViewCount).Take(3).ToList();
+
+
+        HomeVM vm = new()
+        {
+            RecentArticles = recentArticles,
+            TrendVideos = trendVideos,
+            PopularPosts = popular
+        };
+
+        return View(vm);
     }
 
 
-    public IActionResult Privacy()
-    {
 
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
 }

@@ -1,18 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using WebUI.Data;
 using WebUI.Models;
 
 namespace WebUI.Areas.Dashboard.Controllers;
 
 [Area("Dashboard")]
-[Authorize]
+[Authorize(Roles = ("Admin, Moderator"))]
 public class CategoryController : Controller
 {
     private readonly AppDbContext _context;
@@ -29,6 +23,7 @@ public class CategoryController : Controller
     }
 
     [HttpGet]
+    [Authorize(Roles = ("Moderator"))]
     public IActionResult Create()
     {
         return View();
@@ -61,7 +56,7 @@ public class CategoryController : Controller
     [HttpPost]
     public IActionResult Edit(Category category)
     {
-        category.UpdatedDate= DateTime.Now;
+        category.UpdatedDate = DateTime.Now;
         _context.Categories.Update(category);
         _context.SaveChanges();
         return RedirectToAction("Index");

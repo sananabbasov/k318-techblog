@@ -1,0 +1,81 @@
+@model ArticleEditVM
+
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">
+            Create article
+        </h6>
+    </div>
+    <div class="card-body">
+        <form method="post" enctype="multipart/form-data">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="form-group">
+                            <label>Title</label>
+                            <input name="Title" value="@Model.FindedArticle.Title" type="text" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea name="Content" class="form-control">@Model.FindedArticle.Content</textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Category</label>
+                            <select name="CategoryId" class="form-control">
+                                @foreach (var cat in Model.Categories)
+                                {
+                                    if (cat.Id == Model.FindedArticle.CategoryId)
+                                    {
+                                        <option selected value="@cat.Id">@cat.CategoryName</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@cat.Id">@cat.CategoryName</option>
+                                    }
+                                }
+
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Tags</label>
+                            <select name="TagIds" class="form-control" multiple>
+                                @foreach (var tag in Model.Tags)
+                                {
+                                    if (Model.FindedArticle.ArticleTags.Select(x => x.TagId).Contains(tag.Id))
+                                    {
+                                        <option selected value="@tag.Id">@tag.TagName</option>
+                                    }else{
+                                        <option value="@tag.Id">@tag.TagName</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <img src="@Model.FindedArticle.PhotoUrl" class="img-fluid mb-3" alt="">
+                            <input type="hidden" value="@Model.FindedArticle.PhotoUrl" name="photoUrl" />
+                        </div>
+                        <label class="btn btn-outline-success w-100" for="upload">Upload photo</label>
+                        <input class="d-none" name="file" id="upload" type="file">
+                    </div>
+                </div>
+
+            </div>
+            <input type="submit" value="Update" class="btn btn-outline-warning" />
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
+
+    <script>
+        CKEDITOR.replace('Content');
+    </script>
+}

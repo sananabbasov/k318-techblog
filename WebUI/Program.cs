@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebUI.Data;
@@ -26,6 +27,8 @@ builder.Services
 builder.Services.ConfigureApplicationCookie(option =>
 {
     option.LoginPath = "/auth/login";
+    option.AccessDeniedPath = "/auth/login";
+    option.ReturnUrlParameter = CookieAuthenticationDefaults.ReturnUrlParameter;
 });
 
 var app = builder.Build();

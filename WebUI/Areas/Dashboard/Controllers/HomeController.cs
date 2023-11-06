@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace WebUI.Areas.Dashboard.Controllers;
 
 [Area("dashboard")]
-[Authorize]
+[Authorize(Roles ="Admin, Moderator")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

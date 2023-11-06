@@ -60,6 +60,16 @@
                     <span>Categories</span></a>
             </li>
             <!-- Divider -->
+
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="/dashboard/tag">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Tags</span></a>
+            </li>
+            <!-- Divider -->
             <hr class="sidebar-divider">
 
             <!-- Heading -->
@@ -76,8 +86,8 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="buttons.html">New blog</a>
-                        <a class="collapse-item" href="cards.html">My blogs</a>
+                        <a class="collapse-item" href="/dashboard/article/create">New blog</a>
+                        <a class="collapse-item" href="/dashboard/article/">My blogs</a>
                     </div>
                 </div>
             </li>
@@ -92,8 +102,8 @@
                 </a>
                 <div id="user" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="buttons.html">Users</a>
-                        <a class="collapse-item" href="cards.html">Comments</a>
+                        <a class="collapse-item" asp-area="Dashboard" asp-controller="User" asp-action="Index">Users</a>
+                        <a class="collapse-item" asp-area="Dashboard" asp-controller="Role" asp-action="Index" >Roles</a>
                     </div>
                 </div>
             </li>
@@ -376,12 +386,14 @@
 
     <!-- Custom scripts for all pages-->
     <script src="~/admin/js/sb-admin-2.min.js"></script>
-   <!-- Page level plugins -->
+    <!-- Page level plugins -->
     <script src="~/admin/vendor/datatables/jquery.dataTables.min.js"></script>
     <script src="~/admin/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
     <script src="~/admin/js/demo/datatables-demo.js"></script>
+
+    @RenderSection("Scripts", false)
 </body>
 
 </html>
